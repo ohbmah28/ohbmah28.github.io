@@ -3,7 +3,7 @@
 
 This guide's purpose is to help you optimize windows 10 settings for better performance and disable certain privacy and telemetry options, I will try to cover everything I can, from the setup till you have an optimized debloated windows.
 
-**Please note:** Kake sure to understand what each step/option you change does as it might affect a feature you use.
+**Please note:** Make sure to understand what each step/option you change does as it might affect a feature you use.
 
 ### The Windows 10 Setup
 
