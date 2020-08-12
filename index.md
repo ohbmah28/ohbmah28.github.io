@@ -29,8 +29,6 @@ This guide's purpose is to help you optimize windows 10 settings for better perf
 
 - For this step we will use a script made by Sycnex, here is the github link for the script https://github.com/Sycnex/Windows10Debloater. You need to clone the repository, to do so click on the green "Code" button which is usually at the top of the site and then click download ZIP. Extract the ZIP and then run the "Windows10DebloaterGUI.ps1" file using powershell. It will ask you to change the execution policy, type A or Y in the powershell window then click enter. **Please note:** this poses a security risk to your PC, you should change this policy back, which we will cover how to do here.
 
-- Click Customize Blacklist, this will open a window with most the Windows 10 apps that come preinstalled, tick the ones you want to uninstall. Please know what each app does before ticking it. After you're done customizing the blacklist you can close the window and click "Remove Bloatware with Customized Blacklist", you will know this is done when the blue powershell window says "Bloatware Removed".
-
 - Click the following options: "Disable Cortana", "Stop Edge PDF takeover", "Disable Telemetry/Tasks", "Unpin Tiles from Start" and "Remove Bloatware Reg Keys". You can choose "Uninstall Onedrive" if you don't use it. You should also click "Install .NET v3.5" as a lot of apps and games use it.
 
 - Close all the powershell windows you have opened and open a new one as administrator, run this command "Set-ExecutionPolicy Restricted -Force", this will change the execution policy back to restricted mode.
